@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #3ba6ec;
+    padding: 40px ;
+
+}
+header img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    float: left;
+    
+}
+
+
+
+header h1 {
+    font-size: 32px;
+    color: #222;
+}
+
+main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color:  #3ba6ec;
+}
+
+.heroes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.creators {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.layla {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.layla img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.layla h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.layla p {
+    font-size: 14px;
+    color: #ddd;
+}
+.layla:hover {
+    transform: scale(1.05);
+}
+
+.aldous {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.aldous img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.aldous h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.aldous p {
+    font-size: 14px;
+    color: #ddd;
+}
+.aldous:hover {
+    transform: scale(1.05);
+}
+.lancelot {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.lancelot img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.lancelot h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.lancelot p {
+    font-size: 14px;
+    color: #ddd;
+}
+.lancelot:hover {
+    transform: scale(1.05);
+}
+.h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color:  #216c9e;
+
+}
+.layla {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.creators1 {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.creators1 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.creators1 h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.creators1 p {
+    font-size: 14px;
+    color: #ddd;
+}
+.creators1:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #333;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+}
